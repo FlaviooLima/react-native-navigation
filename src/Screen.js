@@ -45,10 +45,6 @@ class Navigator {
     return Navigation.showModal(params);
   }
 
-  showLightBox(params = {}) {
-    return Navigation.showLightBox(params);
-  }
-
   dismissModal(params = {}) {
     return Navigation.dismissModal(params);
   }
